@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>welcome</title>
+	<link rel="stylesheet"
+href= 
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity= 
+"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+crossorigin="anonymous"> 
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+</form>
+
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="">Hi <%= name %></a></li>
+      <li><a href="/contact">Contact us</a></li>
+      <li><a href="#">About us</a></li>
+    </ul>
+    <form style="text-align: left; padding:8px; text-align: right;" action="/logout?_method=DELETE"  method="POST">
+  <button type="submit" class="btn btn-primary">Log Out</button>
+</form>
+  </div>
+
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+		<table class="table table-image">
+		  <thead>
+		    <tr>
+		      <th scope="col">Day</th>
+		      <th scope="col">Image</th>
+		      <th scope="col">Article Name</th>
+		      <th scope="col">Author</th>
+		      <th scope="col">Words</th>
+		      <th scope="col">Shares</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row">1</th>
+		      <td class="w-25">
+			      <img src="http://localhost:3000/images/book1.jpg" class="img-fluid img-thumbnail" alt="Sheep" width="60%">
+		      </td>
+		      <td>In Search of Lost Time</td>
+		      <td>Marcel Proust</td>
+		      <td>913</td>
+		      <td>2.846</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">2</th>
+		      <td class="w-25">
+			      <img src="http://localhost:3000/images/book2.jpg" class="img-fluid img-thumbnail" alt="Sheep" width="60%">
+		      </td>
+		      <td>Ulysses</td>
+		      <td>James Joyce</td>
+		      <td>1.434</td>
+		      <td>3.417</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">3</th>
+		      <td class="w-25">
+			      <img src="http://localhost:3000/images/book3.jpg" class="img-fluid img-thumbnail" alt="Sheep" width="60%">
+		      </td>
+		      <td>Don Quixote</td>
+		      <td>Miguel de Cervantes</td>
+		      <td>913</td>
+		      <td>2.846</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">4</th>
+		      <td class="w-25">
+			      <img src="http://localhost:3000/images/book4.jpg" class="img-fluid img-thumbnail" alt="Sheep" width="60%">
+		      </td>
+		      <td>The Great Gatsby</td>
+		      <td>F. Scott Fitzgerald</td>
+		      <td>1.434</td>
+		      <td>3.417</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">5</th>
+		      <td class="w-25">
+			      <img src="http://localhost:3000/images/book5.jpg" class="img-fluid img-thumbnail" alt="Sheep" width="60%">
+		      </td>
+		      <td>Moby Dick</td>
+		      <td>Herman Melville</td>
+		      <td>913</td>
+		      <td>2.846</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">6</th>
+		      <td class="w-25">
+			      <img src="http://localhost:3000/images/book6.jpg" class="img-fluid img-thumbnail" alt="Sheep" width="60%">
+		      </td>
+		      <td>One Hundred Years of Solitude</td>
+		      <td>Gabriel Garcia Marquez</td>
+		      <td>1.434</td>
+		      <td>3.417</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">7</th>
+		      <td class="w-25">
+			      <img src="http://localhost:3000/images/book7.jpg" class="img-fluid img-thumbnail" alt="Sheep" width="60%">
+		      </td>
+		      <td>War and Peace</td>
+		      <td>Leo Tolstoy</td>
+		      <td>913</td>
+		      <td>2.846</td>
+		    </tr>
+		    
+		  </tbody>
+		</table>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
